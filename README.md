@@ -21,4 +21,4 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 
 1. 02_max_min.py - calculates the maximum and minimum values of: petal length; petal width; sepal length; sepal width
 
-1. 03_mean.py - calculates the mean values of: petal length;petal width; sepal length; sepal width
+1. 03_mean.py - calculates the mean values of: petal length; petal width; sepal length; sepal width
