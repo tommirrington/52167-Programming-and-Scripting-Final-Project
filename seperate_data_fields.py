@@ -1,5 +1,7 @@
 
 #script to divide dataset into seperate lists of petal length, petal width, sepal length and sepal width
+#import math
+#import statistics
 
 petl = []
 petw = []
@@ -15,9 +17,7 @@ with open("data/iris.csv") as f:
       sepw.append(float(x[3]))
 
 
-    
-
-
 #references
 #52167 pset 3,5
 #https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+
