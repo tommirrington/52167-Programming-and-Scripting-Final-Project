@@ -2,7 +2,7 @@
 Final project submission for the 52167 Programming and Scripting on the GMIT Higher Diploma in Data Analytics 2018 Course
 
 
-##Notes and Ideas
+## Notes and Ideas
 
 * use python scripts to produce a report of the data set that can be used for similar data sets.  Output mean, median, mode, Max, Min
 
@@ -10,7 +10,7 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 
 * Research [matplotlib](https://matplotlib.org/#) for producing graphs 
 
-##Research
+## Research
 
 * Structure of Dataset
 
