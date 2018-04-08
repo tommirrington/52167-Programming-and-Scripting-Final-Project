@@ -17,7 +17,7 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 * Types of Iris and characteristics
 
 ## Scripts
-1. 01_seperate_data_fields.py - used to seperate iris data set input intoi seperate lists: petal length; petal width; sepal length; sepal width
+1. 01_seperate_data_fields.py - used to seperate iris data set input into seperate lists: petal length; petal width; sepal length; sepal width
 
 1. 02_max_min.py - calculates the maximum and minimum values of: petal length; petal width; sepal length; sepal width
 
