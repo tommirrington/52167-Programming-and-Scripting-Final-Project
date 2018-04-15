@@ -8,6 +8,10 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 
 * Research [Math](https://docs.python.org/3/library/math.html#module-math) and [statistics](https://docs.python.org/3/library/statistics.html#module-statistics)  libraries to use existing functions 
 
+* use numpy and matplotlib as per lecture
+
+* investigate use of pandas
+
 * Research [matplotlib](https://matplotlib.org/#) for producing graphs Mak
 
 * install as Matplotlib.py, ana(conda) is not a framework install of ptython so follow specific instructions
@@ -22,7 +26,7 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 
 ## Text
 
-The Iris Flower Data set was first used in 1936 by the eminent statistician Ronald Fisher for his paper 'The Use of Multiple Measurements in Taxonomic Problems as an Example of Linear Discriminant Analysis' [2].  The data set comprises 150 data points representing the attributes of samples of three classes of Iris flowers.  The data is used extenisvley in data analytics as a test case for many difeferent applications from machine learning to graphical representation [2] [3].  This paper will provide a detailed description of the data set, discuss the applications of the data set and its advantages and provide some exploratory analysis of the data set using python scripts. 
+The Iris Flower Data set was first used in 1936 by the eminent statistician Ronald Fisher for his paper 'The Use of Multiple Measurements in Taxonomic Problems as an Example of Linear Discriminant Analysis' [2].  The data set comprises 150 data points representing the attributes recorded in samples of three classes of Iris flowers.  The data is used extenisvley in data analytics as a test case for many difeferent applications from machine learning to graphical representation [2] [3].  This paper will provide a detailed description of the data set, discuss the applications of the data set and its advantages and provide some exploratory analysis of the data using python scripts. 
 
 
 
