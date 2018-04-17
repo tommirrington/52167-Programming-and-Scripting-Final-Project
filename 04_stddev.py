@@ -18,8 +18,7 @@ with open("data/iris.csv") as f:
       sepw.append(float(x[3]))
 
       y = y + 1
-
-
+      
 ########################################################################################################
 # Petal Length
 # 1. Work out the Mean (the simple average of the numbers)
@@ -105,16 +104,6 @@ sd_sepw = float(k / len(sepw)) ** (1/2.0)
 
 print("{0:.5f}".format(sd_sepw))
 ########################################################################################################
-
-
-
-
-
-
-
-
-
-
 
 #References
 #standard deviation https://www.mathsisfun.com/data/standard-deviation-formulas.html
