@@ -16,6 +16,8 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 
 * install as Matplotlib.py, ana(conda) is not a framework install of ptython so follow specific instructions
 
+* create similar outpur, formatted into columns with headers https://www.safaribooksonline.com/library/view/python-data-science/9781785280429/ch03.html
+
 
 ## Scripts
 1. 01_seperate_data_fields.py - used to seperate iris data set input into seperate lists: petal length; petal width; sepal length; sepal width
@@ -23,6 +25,10 @@ Final project submission for the 52167 Programming and Scripting on the GMIT Hig
 1. 02_max_min.py - calculates the maximum and minimum values of: petal length; petal width; sepal length; sepal width
 
 1. 03_mean.py - calculates the mean values of: petal length; petal width; sepal length; sepal width
+
+1. 04_stddev.py - calculates the standard deviation of each dat field
+
+1. 05_iris_combined_stats.py - script using only python basic functions to report max, min, mean and standard deviation
 
 ## Text
 
