@@ -67,16 +67,6 @@ print('Min:          {0:.1f}'.format(min(sepw)))
 print('Mean:         {0:.5f}'.format(mean(sepw)))
 print('Std Dev:      {0:.5f}\n\n'.format(stdev(sepw)))
 
-
-
-
-
-
-
-
-
-
-
 #references
 #52167 pset 3,5
 #https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
