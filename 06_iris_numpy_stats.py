@@ -1,6 +1,5 @@
 import numpy as np
 import statistics as stats
-import matplotlib.pyplot as pl
 
 data = np.genfromtxt('data/iris.csv', delimiter=',')
 
@@ -45,8 +44,7 @@ print('Median:       {0:.5f}'.format(stats.median(sepw)))
 print('Std Dev:      {0:.5f}'.format(stats.pstdev(sepw)))
 print('Variance:     {0:.5f}\n\n'.format(stats.pvariance(sepw)))
 
-pl.hist(petl)
-pl.show()
+
 
 #https://docs.scipy.org/doc/numpy-1.12.0/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt
 #https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.math.html
