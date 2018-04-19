@@ -12,55 +12,13 @@ y = 0
 with open("data/iris.csv") as f:
     for line in f:
       x = line.split(',')
-      petl.append(float(x[0]))
-      petw.append(float(x[1]))
-      sepl.append(float(x[2]))
-      sepw.append(float(x[3]))
+      sepl.append(float(x[0]))
+      sepw.append(float(x[1]))
+      petl.append(float(x[2]))
+      petw.append(float(x[3]))
+
 
       y = y + 1
-      
-########################################################################################################
-# Petal Length
-# 1. Work out the Mean (the simple average of the numbers)
-
-mean_petl = sum(petl) / y
-
-# 2. Then for each number: subtract the Mean and square the result
-
-k = 0
-
-for i in range(len(petl)):
-    j = (petl[i] - mean_petl) ** 2
-
-    k = k + j
-
-# 3. Then work out the mean of those squared differences.
-# 4. Take the square root of that and we are done!
-
-sd_petl = float(k / len(petl)) ** (1/2.0)
-
-print("{0:.5f}".format(sd_petl))
-########################################################################################################
-# Petal Width
-# 1. Work out the Mean (the simple average of the numbers)
-
-mean_petw = sum(petw) / y
-
-# 2. Then for each number: subtract the Mean and square the result
-
-k = 0
-
-for i in range(len(petw)):
-    j = (petw[i] - mean_petw) ** 2
-
-    k = k + j
-
-# 3. Then work out the mean of those squared differences.
-# 4. Take the square root of that and we are done!
-
-sd_petw = float(k / len(petw)) ** (1/2.0)
-
-print("{0:.5f}".format(sd_petw))
 ########################################################################################################
 # Sepal Length
 # 1. Work out the Mean (the simple average of the numbers)
@@ -81,9 +39,9 @@ for i in range(len(sepl)):
 
 sd_sepl = float(k / len(sepl)) ** (1/2.0)
 
-print("{0:.5f}".format(sd_sepl))
+print("The sepal length standard deviation is {0:.2f}".format(sd_sepl))
 ########################################################################################################
-# Sepal Length
+# Sepal Width
 # 1. Work out the Mean (the simple average of the numbers)
 
 mean_sepw = sum(sepw) / y
@@ -102,7 +60,49 @@ for i in range(len(sepw)):
 
 sd_sepw = float(k / len(sepw)) ** (1/2.0)
 
-print("{0:.5f}".format(sd_sepw))
+print("The sepal width standard deviation is {0:.2f}".format(sd_sepw))      
+########################################################################################################
+# Petal Length
+# 1. Work out the Mean (the simple average of the numbers)
+
+mean_petl = sum(petl) / y
+
+# 2. Then for each number: subtract the Mean and square the result
+
+k = 0
+
+for i in range(len(petl)):
+    j = (petl[i] - mean_petl) ** 2
+
+    k = k + j
+
+# 3. Then work out the mean of those squared differences.
+# 4. Take the square root of that and we are done!
+
+sd_petl = float(k / len(petl)) ** (1/2.0)
+
+print("The petal length standard deviation is {0:.2f}".format(sd_petl))
+########################################################################################################
+# Petal Width
+# 1. Work out the Mean (the simple average of the numbers)
+
+mean_petw = sum(petw) / y
+
+# 2. Then for each number: subtract the Mean and square the result
+
+k = 0
+
+for i in range(len(petw)):
+    j = (petw[i] - mean_petw) ** 2
+
+    k = k + j
+
+# 3. Then work out the mean of those squared differences.
+# 4. Take the square root of that and we are done!
+
+sd_petw = float(k / len(petw)) ** (1/2.0)
+
+print("The petal width standard deviation is {0:.2f}".format(sd_petw))
 ########################################################################################################
 
 #References
