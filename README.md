@@ -76,3 +76,19 @@ Release Date: July 2016
 ISBN: 9781785885716
 
 3. https://en.wikipedia.org/wiki/Ronald_Fisher
+
+4. http://archive.ics.uci.edu/ml/datasets/Iris
+
+1. sepal length in cm 
+2. sepal width in cm 
+3. petal length in cm 
+4. petal width in cm 
+5. class: 
+-- Iris Setosa 
+-- Iris Versicolour 
+-- Iris Virginica
+
+
+review papers, also mention that one class is linearly seperable
+
+good description and check stats http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.names
