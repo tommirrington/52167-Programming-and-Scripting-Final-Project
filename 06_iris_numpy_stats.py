@@ -1,7 +1,7 @@
 import numpy as np
 import statistics as stats
 
-#use numpy libraray to import csv file as an array and assign variable for each vector
+#use numpy libraray to import csv file as an ndarray and assign variable for each vector
 
 data = np.genfromtxt('data/iris.csv', delimiter=',')
 
