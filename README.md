@@ -92,3 +92,5 @@ ISBN: 9781785885716
 review papers, also mention that one class is linearly seperable
 
 good description and check stats http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.names
+
+http://academic.bancey.com/plotting-multivariate-data-with-matplotlibpylab-edgar-andersons-iris-flower-data-set/
