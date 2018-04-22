@@ -1,14 +1,18 @@
-#script to divide dataset into seperate lists of petal length, petal width, sepal length and sepal width
-#declare lists
+#52167 Programming and Scripting
+#Tom Mirrington 04/2018
 
+#script to divide dataset into seperate lists of petal length, petal width, sepal length and sepal width
+
+#declare lists
 sepl = []
 sepw = []
 petl = []
 petw = []
 
-#count number of data lines
+#use y as a counter to iterate through data set and provide a total
 y = 0
 
+#open csv and append data to corresponding lists
 with open("data/iris.csv") as f:
     for line in f:
       x = line.split(',')
@@ -17,9 +21,10 @@ with open("data/iris.csv") as f:
       petl.append(float(x[2]))
       petw.append(float(x[3]))
 
+      #count number of data lines
       y = y + 1
 
-#using python built in functions https://docs.python.org/3/library/functions.html
+#using python built in functions https://docs.python.org/3/library/functions.html calculate the mean using the sum function
 
 mean_sepl = sum(sepl) / y
 mean_sepw = sum(sepw) / y

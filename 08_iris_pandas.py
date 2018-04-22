@@ -16,10 +16,17 @@ print(iris_df.petl.describe())
 print('\n\nPetal Width')
 print(iris_df.petw.describe())
 
+
+
+
+plt.figure(1, figsize=(10, 6), dpi=120, facecolor='w', edgecolor='k')
+
+
 g = sns.FacetGrid(iris_df, hue="class")
 g.map(plt.scatter, "sepl", "sepw") 
 g.add_legend()
-plt.show()
+
+
 
 f = sns.FacetGrid(iris_df, hue="class")
 f.map(plt.scatter, "petl", "petw") 

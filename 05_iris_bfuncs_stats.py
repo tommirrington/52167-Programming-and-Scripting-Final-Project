@@ -1,4 +1,7 @@
-#script combing scripts 01 -04 to output max, min, mean and standard deviation using 
+#52167 Programming and Scripting
+#Tom Mirrington 04/2018
+
+#script combing scripts 01 - 04 to output max, min, mean and standard deviation using 
 #only python basic functions.
 
 #define lists and input csv, write each line indec into a seperate list

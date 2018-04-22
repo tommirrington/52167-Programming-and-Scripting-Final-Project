@@ -1,3 +1,6 @@
+#52167 Programming and Scripting
+#Tom Mirrington 04/2018
+
 #script to calculate the standard deviation in each data field
 
 #define lists for petal length, petal width, sepalk length, sepal width
