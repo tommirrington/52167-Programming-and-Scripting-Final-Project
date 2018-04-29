@@ -56,9 +56,10 @@ Initial investigations into this data show that there is a clear distinction in 
 
 ## SCRIPTS
 
-- Python 3.6.3 installation required, the Anaconda distribution was used
-- Clone or download scripts from this repository
-- Open Terminal window and run: python filepath/scriptname.py
+- Python 3.6.3 installation required, in this case the Anaconda distribution was used, ensure that numpy, statistics, matplot, pandas and seaborn libraries are installed as part of the distribution that is used.
+- Clone or download scripts and data folder from this repository to a local directory
+- Open Terminal window and navigate to the directory in which the script and data folder are stored.
+- Run the following command: python filepath/scriptname.py ensuring that the
 
 1. 01_seperate_data_fields.py - used to seperate iris data set input into seperate lists: petal length; petal width; sepal length; sepal width
 
