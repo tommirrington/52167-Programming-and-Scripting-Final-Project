@@ -54,6 +54,8 @@ Initial investigations into this data show that there is a clear distinction in 
 6. Boschetti, Alberto and Massaron, Luca. Python Data Science Essentials. s.l. : Packt Publishing, 2015.
 7. Church, James. Data Mining with Python: Implementing Classification and Regression. s.l. : Packt Publishing, 2016. 9781785885716.
 
+References for scripting are included as comments within the individual scripts
+
 ## SCRIPTS
 
 - Python 3.6.3 installation required, in this case the Anaconda distribution was used, ensure that numpy, statistics, matplot, pandas and seaborn libraries are installed as part of the distribution that is used.
