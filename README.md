@@ -66,7 +66,13 @@ The sepal lengths on the other hand are more difficult to distinguish.  The iris
 
 1. 04_stddev.py - calculates the standard deviation of each dat field
 
-1. 05_iris_combined_stats.py - script using only python basic functions to report max, min, mean and standard deviation
+1. 05_iris_bfuncs_stats.py - script using only python basic functions to report max, min, mean and standard deviation
+
+1. 06_iris_numpy_stats.py - script using numopy and stats libraries to output min, max, mean, mode, median, standard deviation and variance
+
+1. 07_iris_matplot_hist.py - script to output histograms of sepal length, sepal width, opetal length and petal width
+
+1. 08_iris_pandas.py - script using pandas and seaborn libraries to output a statistical report and scteer plots
 
 
 
