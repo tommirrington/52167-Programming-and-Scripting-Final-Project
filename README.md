@@ -27,7 +27,7 @@ In addition to the basic functions the mode, median and variance have been inclu
 
 Script 07 has been written using the matplotlib library to plot a histogram for each measurement.  The data is once again imported using a numpy function and then indexed into separate arrays based on measurement type.  The plt.hist function is used to create the plot and the majority of the script is used to configure the format of the output.  In this case a figure has been used with four subplots, the text size has been changed and each plot has been assigned a different colour.  
 
-![Histogram displaying the distribution of Sepal Length, Sepal Width, Petal Length and Petal Width](07_matplotlib.png)
+![Histogram displaying the distribution of Sepal Length, Sepal Width, Petal Length and Petal Width](Images/07_matplotlib.png)
 
 It can be seen by looking at the distribution of the plots that the petal length and petal widths are separated into two distinct groups of larger and smaller measurements, this may be a distinction between the classes.  The sepal measurements seem to be a lot more consistent and the sepal widths look a lot more like a normal distribution with the majority of measurements forming a notable peak with a few outliers at the extents.
 
