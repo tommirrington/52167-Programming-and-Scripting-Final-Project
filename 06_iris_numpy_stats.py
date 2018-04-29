@@ -15,7 +15,7 @@ petw = data[:,3]
 print('\n\nSepal Length')
 print('Min:          {0:.1f}'.format(np.min(sepl)))
 print('Max:          {0:.1f}'.format(np.max(sepl)))
-print('Mean:         {0:.5f}'.format(np.mean(sepl)))
+print('Mean:         {0:.2f}'.format(np.mean(sepl)))
 print('Mode:         {0:.2f}'.format(stats.mode(sepl)))
 print('Median:       {0:.2f}'.format(stats.median(sepl)))
 print('Std Dev:      {0:.2f}'.format(stats.pstdev(sepl)))
