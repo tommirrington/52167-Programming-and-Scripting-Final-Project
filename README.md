@@ -21,23 +21,23 @@ This results are based on the entire sample and do not differentiate between cla
 
 Script 06 uses the numpy and statistics libraries to produce a similar but more detailed report.  The csv file is imported using a numpy function ‘genfromtxt’ to produce a ndarray.  This is an array of homogenous numerical data so in this the case the class is not imported.  This is then subdivided into measurement type by indexing the data array.  Functions have been used from the statistics library and these have been formatted into the lines of print text to reduce the overall amount of code.  
 
-![Output of a script using numpy and statistics libraries][Images/06 numpy.PNG]
+![Output of a script using numpy and statistics libraries](Images/06_numpy.png)
 
 In addition to the basic functions the mode, median and variance have been included in this report.  It can be seen that the petal length has the most variance in the measurements.  It should also be noted that there is a lot of variation in the mean, mode and median of the petal length whereas the other measurement types are more consistent.
 
 Script 07 has been written using the matplotlib library to plot a histogram for each measurement.  The data is once again imported using a numpy function and then indexed into separate arrays based on measurement type.  The plt.hist function is used to create the plot and the majority of the script is used to configure the format of the output.  In this case a figure has been used with four subplots, the text size has been changed and each plot has been assigned a different colour.  
 
-![Histogram displaying the distribution of Sepal Length, Sepal Width, Petal Length and Petal Width][07 matplotlib.PNG]
+![Histogram displaying the distribution of Sepal Length, Sepal Width, Petal Length and Petal Width](07_matplotlib.png)
 
 It can be seen by looking at the distribution of the plots that the petal length and petal widths are separated into two distinct groups of larger and smaller measurements, this may be a distinction between the classes.  The sepal measurements seem to be a lot more consistent and the sepal widths look a lot more like a normal distribution with the majority of measurements forming a notable peak with a few outliers at the extents.
 
 The final script 08 utilises the high level libraries of pandas and seaborn to produce perhaps the most extensive statistical and graphical report in the least amount of code.  A pandas function is used to read the data into a pandas data frame, this is an array that can contain information of different data types.  An inbuilt function called describe is a able to produce a concise statistical report for each series in the data frame and this is printed out to the terminal screen.  The seaborn library has then been used to produce a facet grid scatter plot to visualise the petal length/petal width and sepal length/sepal width.  These are colour coded according to the class of iris.
 
-![Repoprt using pandas 'describe' function][Images/08 report.PNG]
+![Repoprt using pandas 'describe' function](Images/08_report.png)
 
-![Scatter plot of Petal length/Petal width][Images/08 scat petal.PNG]
+![Scatter plot of Petal length/Petal width](Images/08_scat_petal.png)
 
-![Scatter plot of Sepal length/Sepal width][Images/08 scat sepal.PNG]
+![Scatter plot of Sepal length/Sepal width](Images/08_scat_sepal.png)
 
 These scatter plots reveal some distinctions between the classes of iris.  The petal measurements seem to follow a linear relationship i.e. the an increase in length results in a proportional increase in width.  All three classes show distinct clusters in the petal measurements and the iris setosa can easily be identified with its unique cluster of smaller measurements.  The iris virginica is clearly the larger flower and there is only a small crossover between that and the iris versicolor measurements.  
 
